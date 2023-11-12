@@ -105,7 +105,7 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="fix">
+      <footer className="fix pb-20">
         <div className="tp-footer__pl-pr p-relative">
           <div className="footer-black-bg tp-gsap-bg"></div>
           {/* <div className="tp-footer__area pt-50">

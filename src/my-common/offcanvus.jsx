@@ -5,10 +5,10 @@ import MobileMenus from "../my-layout/headers/mobile-menus";
 
 // images import
 import logo from "../../public/assets/img/logo/logo.png";
-import canvus_img_1 from "../../public/assets/img/project/project-inner-4.jpg";
-import canvus_img_2 from "../../public/assets/img/project/project-inner-5.jpg";
-import canvus_img_3 from "../../public/assets/img/project/project-inner-6.jpg";
-import canvus_img_4 from "../../public/assets/img/project/project-inner-7.jpg";
+import canvus_img_1 from "../../public/assets/img/about/about-12.png";
+import canvus_img_2 from "../../public/assets/img/hero/hero-esc.png";
+import canvus_img_3 from "../../public/assets/img/about/about-14.png";
+import canvus_img_4 from "../../public/assets/img/about/about-15.png";
 
 const Offcanvus = ({
   featureRef,
@@ -57,7 +57,7 @@ const Offcanvus = ({
           </div>
           <div className="tpoffcanvas__instagram text-center">
             <div className="tpoffcanvas__instagram-title">
-              <h4>instagram</h4>
+              <h4>Dashboard</h4>
             </div>
             <Link href="#">
               <Image src={canvus_img_1} alt="theme-pure" />

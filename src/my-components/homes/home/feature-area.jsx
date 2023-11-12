@@ -27,7 +27,7 @@ const feature_data = [
   },
   {
     id: 2,
-    img: icon_2,
+    img: icon_3,
     title: <>Better Student and Teacher Interaction</>,
     description: (
       <>
@@ -40,7 +40,7 @@ const feature_data = [
   },
   {
     id: 3,
-    img: icon_3,
+    img: icon_2,
     title: <>Easy Class Management</>,
     description: (
       <>
@@ -56,7 +56,7 @@ const feature_data = [
 // feature content
 const feature_content = {
   title: "Our Exciting Features",
-  sub_title: "More than 15,000 companies trust and choose Itech",
+  sub_title: "Discovering the Exceptional Capabilities of Our LMS Application",
 };
 const { title, sub_title } = feature_content;
 

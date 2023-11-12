@@ -4,9 +4,9 @@ import React from "react";
 
 // images import
 import about_img_1 from "../../public/assets/img/about/about-bg-shape.png";
-import about_img_2 from "../../public/assets/img/about/about-2.jpg";
-import about_img_3 from "../../public/assets/img/about/about-1.jpg";
-import about_img_4 from "../../public/assets/img/about/about-3.jpg";
+import about_img_2 from "../../public/assets/img/about/about-15.png";
+import about_img_3 from "../../public/assets/img/about/about-13.png";
+import about_img_4 from "../../public/assets/img/about/about-14.png";
 import about_img_5 from "../../public/assets/img/about/about-6.png";
 
 // about data
@@ -92,6 +92,7 @@ const AboutArea = () => {
               className="col-xl-6 col-lg-6 wow tpfadeRight"
               data-wow-duration=".9s"
               data-wow-delay=".6s"
+              style={{ paddingLeft: "50px" }}
             >
               <div className="tp-about__right">
                 <div className="tp-about__section-box">

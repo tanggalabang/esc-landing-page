@@ -15,6 +15,7 @@ import hero_thumb_1 from "../../../../public/assets/img/hero/hero-esc.png";
 import thumb_1 from "../../../../public/assets/img/hero/hero-sm-3.png";
 import thumb_2 from "../../../../public/assets/img/hero/hero-sm-4.jpg";
 import hero_thumb_2 from "../../../../public/assets/img/hero/hero-sm-2.jpg";
+import Link from "next/link";
 
 // hero content data
 const hero_content = {
@@ -152,6 +153,24 @@ const HeroSlider = () => {
                     >
                       {sub_title}
                     </p>
+                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      marginBottom: "10px",
+                    }}
+                  >
+                    <Link
+                      className="tp-btn-white tp-btn-hover alt-color-black d-md-none d-xl-none d-block"
+                      href="http://localhost:3000/auth/login"
+                      style={{
+                        width: "150px",
+                      }}
+                    >
+                      <span className="white-text">Dashboard</span>
+                      <b></b>
+                    </Link>
                   </div>
                 </div>
               </div>
